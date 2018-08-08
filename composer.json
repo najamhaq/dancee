@@ -1,0 +1,21 @@
+{
+    "name": "najamhaq/dancee",
+    "description": "Create UML diagram of PHP project via yUML",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dancee\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
